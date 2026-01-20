@@ -1,0 +1,4 @@
+[
+  { "email": "Admin", "password": "admin123", "type": "valid" },
+  { "email": "wrongUser", "password": "wrongPass", "type": "invalid" }
+]

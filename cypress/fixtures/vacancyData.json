@@ -1,0 +1,30 @@
+
+{
+  "valid": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com"
+  },
+  "invalid": {
+    "missingFirstName": {
+      "firstName": "",
+      "lastName": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "missingLastName": {
+      "firstName": "John",
+      "lastName": "",
+      "email": "john.doe@example.com"
+    },
+    "missingEmail": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": ""
+    },
+    "search": {
+      "jobTitle": "Senior QA Engineer",
+      "hiringManager": "John Smith"
+    },
+    "status": "Active"
+  }
+}
