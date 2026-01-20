@@ -39,9 +39,14 @@ npm install
 npx cypress open    # Opens Cypress test runner
 npx cypress run     # Runs all tests in CLI
 
-k6 run k6/login_test.js                         # Run locally
-k6 run --out json=results.json k6/login_test.js  # Save results
+```
+Reporting
+
+Cypress generates screenshots & videos
+
+K6 outputs metrics, response times, thresholds, and can integrate with Grafana for visualization
+
+Author
 
 Kurabachew M. – QA Engineer / Automation Tester
-
 
