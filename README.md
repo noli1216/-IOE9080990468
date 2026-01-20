@@ -19,7 +19,7 @@ This project demonstrates **end-to-end testing** and **performance testing** of 
 ## 📂 Project Structure
 
 
-
+```
 QA-Capstone-Cypress/
 ├─ cypress/        # Cypress tests, fixtures, page objects
 ├─ k6/             # K6 performance test scripts
@@ -34,7 +34,7 @@ QA-Capstone-Cypress/
 ## 🚀 How to Run
 
 ### Cypress E2E Tests
-```bash
+bash
 npm install
 npx cypress open    # Opens Cypress test runner
 npx cypress run     # Runs all tests in CLI
