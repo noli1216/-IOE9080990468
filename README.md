@@ -1,31 +1,34 @@
 
 # QA Capstone Project – Cypress & K6
 
-![QA Automation](https://img.shields.io/badge/QA-Automation-blue) ![Performance](https://img.shields.io/badge/Performance-Testing-green)
+![Cypress](https://img.shields.io/badge/Test-Cypress-green)
+![K6](https://img.shields.io/badge/Performance-K6-blue)
+![Node](https://img.shields.io/badge/Node.js-18+-brightgreen)
 
-This project demonstrates **end-to-end testing** and **performance testing** of the OrangeHRM demo website using **Cypress** and **K6**, simulating user interactions (login, candidate search) and measuring system performance under load.
+This project demonstrates **End-to-End automation testing** and **Performance testing** of the OrangeHRM demo application using **Cypress** and **K6**.  
+It validates core user flows (Login, Candidate Search) and measures system behavior under load.
 
 ---
 
 ## 🔧 Tools & Technologies
 
-- **Cypress** – E2E automation testing
-- **K6** – Load and performance testing
-- **Node.js & NPM** – Project dependencies
-- **GitHub** – Version control
+- **Cypress** – UI End-to-End Automation  
+- **K6** – Load & Performance Testing  
+- **Node.js & NPM** – Project dependencies  
+- **GitHub** – Version control & portfolio
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-
-```
+```text
 QA-Capstone-Cypress/
 ├─ cypress/        # Cypress tests, fixtures, page objects
 ├─ k6/             # K6 performance test scripts
 ├─ package.json
 ├─ package-lock.json
 └─ cypress.config.js
+
 
 
 
