@@ -58,6 +58,6 @@ Results can be visualized using Grafana.
 👤 Author
 
 Kurabachew M.
-QA Engineer | Automation Tester
+```QA Engineer | Automation Tester
 Cypress • K6 • Manual & Performance Testing
-```
+
