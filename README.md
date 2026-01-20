@@ -53,7 +53,7 @@ Cypress generates screenshots and video recordings.
 K6 provides response time metrics, thresholds, and load statistics.
 
 Results can be visualized using Grafana.
-```text
+---
 👤 Author
 Kurabachew M.
 QA Engineer | Automation Tester.
