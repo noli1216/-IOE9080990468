@@ -37,19 +37,27 @@ QA-Capstone-Cypress/
 ## 🚀 How to Run
 
 ### Cypress E2E Tests
-bash
 npm install
-npx cypress open    # Opens Cypress test runner
-npx cypress run     # Runs all tests in CLI
+npx cypress open
+npx cypress run
+
+k6 run k6/login_test.js
+k6 run --out json=results.json k6/login_test.js
+
 
 ```
-Reporting
+📊 Reporting
 
-Cypress generates screenshots & videos
+Cypress generates screenshots and video recordings.
 
-K6 outputs metrics, response times, thresholds, and can integrate with Grafana for visualization
+K6 provides response time metrics, thresholds, and load statistics.
 
-Author
+Results can be visualized using Grafana.
 
-Kurabachew M. – QA Engineer / Automation Tester
+
+👤 Author
+
+Kurabachew M.
+QA Engineer | Automation Tester
+Cypress • K6 • Manual & Performance Testing
 
