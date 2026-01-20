@@ -27,3 +27,21 @@ QA-Capstone-Cypress/
 ├─ package-lock.json
 └─ cypress.config.js
 
+
+
+---
+
+## 🚀 How to Run
+
+### Cypress E2E Tests
+```bash
+npm install
+npx cypress open    # Opens Cypress test runner
+npx cypress run     # Runs all tests in CLI
+
+k6 run k6/login_test.js                         # Run locally
+k6 run --out json=results.json k6/login_test.js  # Save results
+
+Kurabachew M. – QA Engineer / Automation Tester
+
+
