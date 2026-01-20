@@ -18,3 +18,11 @@ This project demonstrates **end-to-end testing** and **performance testing** of 
 
 ## 📂 Project Structure
 
+
+QA-Capstone-Cypress/
+├─ cypress/ # Cypress tests, fixtures, page objects
+├─ k6/ # K6 performance test scripts
+├─ package.json
+├─ package-lock.json
+└─ cypress.config.js
+
